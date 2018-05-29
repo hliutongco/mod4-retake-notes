@@ -98,10 +98,10 @@ const ListItem = (props) => {
 ```
 
 ## Functional vs Class Components
-* The main differences are that presentational components:
+* The main differences are that functional components:
   * do not have state
   * do not have lifecycle methods
-* You can technically create functions in presentational components by storing them in variables above your return statement (probably not best practice but it's possible to do):
+* You can technically create functions in functional components by storing them in variables above your return statement (probably not best practice but it's possible to do):
 
 ```
 const List = (props) => {
