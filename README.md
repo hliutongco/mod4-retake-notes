@@ -20,7 +20,7 @@ Bottom Level: ListItem
          ListItem
 ```
 
-* The bottom levels (e.g. ListItem) are more likely to be presentational components
+* The bottom levels (e.g. ListItem) are more likely to be functional/presentational components
 
 ## The Container
 * Considering the structure shown above, the container often acts as a middle man between the form and the list
@@ -97,7 +97,7 @@ const ListItem = (props) => {
 }
 ```
 
-## Presentational vs Class Components
+## Functional vs Class Components
 * The main differences are that presentational components:
   * do not have state
   * do not have lifecycle methods
