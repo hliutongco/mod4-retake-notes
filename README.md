@@ -3,8 +3,11 @@ So all the stuff here is fairly subjective. There don't seem to be a ton of hard
 
 ## Basic Structure of React Apps
 Top Level: App
+
 Middle Level: Container
+
 Middle Level: Form & List
+
 Bottom Level: ListItem
 
 ```
