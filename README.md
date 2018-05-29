@@ -77,7 +77,7 @@ const List = (props) => {
   return (
       <ul>
         {props.listArray.map((item) => {
-          <ListItem itemData={item}/>
+          return <ListItem itemData={item}/>
         })}
       </ul>
   )
